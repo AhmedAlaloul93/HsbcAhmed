@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         loadData()
     }
     private func loadData() {
-           let componnetsPrivate = URLComponents(string: "https://gist.githubusercontent.com/AhmedAlaloul93/a6a52a264c338d7a8d213442dc4f1d07/raw/462adf94066ce51e4584798ecb2f54b582cb4eaa/aa.json")
+           let componnetsPrivate = URLComponents(string: "https://gist.githubusercontent.com/AhmedAlaloul93/a6a52a264c338d7a8d213442dc4f1d07/raw/ff870fe4c25568ab689fd49988ac83ec430ae0c7/aa.json")
            guard let urlPriv = componnetsPrivate?.url else {return}
            var requestPriv = URLRequest(url: urlPriv)
 
@@ -31,7 +31,11 @@ class ViewController: UIViewController {
                let json = try? JSONSerialization.jsonObject(with: data, options: [])
                if let myInfo = ProfileOB(dictionary: json as! Dictionary<String, Any>) {
                 self.data = myInfo
-                self.updateUI()
+                 DispatchQueue.main.async { // Correct
+                      self.updateUI()
+                     
+                  }
+                
                }
 
               
