@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE11C562382332D00BAE4C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE11C552382332D00BAE4C5 /* AppDelegate.swift */; };
+		3FE11C582382332D00BAE4C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE11C572382332D00BAE4C5 /* SceneDelegate.swift */; };
+		3FE11C5A2382332D00BAE4C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE11C592382332D00BAE4C5 /* ViewController.swift */; };
+		3FE11C5D2382332D00BAE4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE11C5B2382332D00BAE4C5 /* Main.storyboard */; };
+		3FE11C5F2382332E00BAE4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE11C5E2382332E00BAE4C5 /* Assets.xcassets */; };
+		3FE11C622382332E00BAE4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE11C602382332E00BAE4C5 /* LaunchScreen.storyboard */; };
+		3FE11C6D2382332E00BAE4C5 /* HsbcAhmedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE11C6C2382332E00BAE4C5 /* HsbcAhmedTests.swift */; };
+		3FE11C782382332E00BAE4C5 /* HsbcAhmedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE11C772382332E00BAE4C5 /* HsbcAhmedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE11C692382332E00BAE4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE11C4A2382332D00BAE4C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE11C512382332D00BAE4C5;
+			remoteInfo = HsbcAhmed;
+		};
+		3FE11C742382332E00BAE4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE11C4A2382332D00BAE4C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE11C512382332D00BAE4C5;
+			remoteInfo = HsbcAhmed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FE11C522382332D00BAE4C5 /* HsbcAhmed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HsbcAhmed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE11C552382332D00BAE4C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FE11C572382332D00BAE4C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FE11C592382332D00BAE4C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FE11C5C2382332D00BAE4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FE11C5E2382332E00BAE4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE11C612382332E00BAE4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FE11C632382332E00BAE4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE11C682382332E00BAE4C5 /* HsbcAhmedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HsbcAhmedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE11C6C2382332E00BAE4C5 /* HsbcAhmedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HsbcAhmedTests.swift; sourceTree = "<group>"; };
+		3FE11C6E2382332E00BAE4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE11C732382332E00BAE4C5 /* HsbcAhmedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HsbcAhmedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE11C772382332E00BAE4C5 /* HsbcAhmedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HsbcAhmedUITests.swift; sourceTree = "<group>"; };
+		3FE11C792382332E00BAE4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE11C4F2382332D00BAE4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE11C652382332E00BAE4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE11C702382332E00BAE4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE11C492382332D00BAE4C5 = {
+			isa = PBXGroup;
+			children = (
+				3FE11C542382332D00BAE4C5 /* HsbcAhmed */,
+				3FE11C6B2382332E00BAE4C5 /* HsbcAhmedTests */,
+				3FE11C762382332E00BAE4C5 /* HsbcAhmedUITests */,
+				3FE11C532382332D00BAE4C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE11C532382332D00BAE4C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE11C522382332D00BAE4C5 /* HsbcAhmed.app */,
+				3FE11C682382332E00BAE4C5 /* HsbcAhmedTests.xctest */,
+				3FE11C732382332E00BAE4C5 /* HsbcAhmedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE11C542382332D00BAE4C5 /* HsbcAhmed */ = {
+			isa = PBXGroup;
+			children = (
+				3FE11C552382332D00BAE4C5 /* AppDelegate.swift */,
+				3FE11C572382332D00BAE4C5 /* SceneDelegate.swift */,
+				3FE11C592382332D00BAE4C5 /* ViewController.swift */,
+				3FE11C5B2382332D00BAE4C5 /* Main.storyboard */,
+				3FE11C5E2382332E00BAE4C5 /* Assets.xcassets */,
+				3FE11C602382332E00BAE4C5 /* LaunchScreen.storyboard */,
+				3FE11C632382332E00BAE4C5 /* Info.plist */,
+			);
+			path = HsbcAhmed;
+			sourceTree = "<group>";
+		};
+		3FE11C6B2382332E00BAE4C5 /* HsbcAhmedTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE11C6C2382332E00BAE4C5 /* HsbcAhmedTests.swift */,
+				3FE11C6E2382332E00BAE4C5 /* Info.plist */,
+			);
+			path = HsbcAhmedTests;
+			sourceTree = "<group>";
+		};
+		3FE11C762382332E00BAE4C5 /* HsbcAhmedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE11C772382332E00BAE4C5 /* HsbcAhmedUITests.swift */,
+				3FE11C792382332E00BAE4C5 /* Info.plist */,
+			);
+			path = HsbcAhmedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE11C512382332D00BAE4C5 /* HsbcAhmed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE11C7C2382332E00BAE4C5 /* Build configuration list for PBXNativeTarget "HsbcAhmed" */;
+			buildPhases = (
+				3FE11C4E2382332D00BAE4C5 /* Sources */,
+				3FE11C4F2382332D00BAE4C5 /* Frameworks */,
+				3FE11C502382332D00BAE4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HsbcAhmed;
+			productName = HsbcAhmed;
+			productReference = 3FE11C522382332D00BAE4C5 /* HsbcAhmed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE11C672382332E00BAE4C5 /* HsbcAhmedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE11C7F2382332E00BAE4C5 /* Build configuration list for PBXNativeTarget "HsbcAhmedTests" */;
+			buildPhases = (
+				3FE11C642382332E00BAE4C5 /* Sources */,
+				3FE11C652382332E00BAE4C5 /* Frameworks */,
+				3FE11C662382332E00BAE4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE11C6A2382332E00BAE4C5 /* PBXTargetDependency */,
+			);
+			name = HsbcAhmedTests;
+			productName = HsbcAhmedTests;
+			productReference = 3FE11C682382332E00BAE4C5 /* HsbcAhmedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FE11C722382332E00BAE4C5 /* HsbcAhmedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE11C822382332E00BAE4C5 /* Build configuration list for PBXNativeTarget "HsbcAhmedUITests" */;
+			buildPhases = (
+				3FE11C6F2382332E00BAE4C5 /* Sources */,
+				3FE11C702382332E00BAE4C5 /* Frameworks */,
+				3FE11C712382332E00BAE4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE11C752382332E00BAE4C5 /* PBXTargetDependency */,
+			);
+			name = HsbcAhmedUITests;
+			productName = HsbcAhmedUITests;
+			productReference = 3FE11C732382332E00BAE4C5 /* HsbcAhmedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE11C4A2382332D00BAE4C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = AhmedAlaloul;
+				TargetAttributes = {
+					3FE11C512382332D00BAE4C5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3FE11C672382332E00BAE4C5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3FE11C512382332D00BAE4C5;
+					};
+					3FE11C722382332E00BAE4C5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3FE11C512382332D00BAE4C5;
+					};
+				};
+			};
+			buildConfigurationList = 3FE11C4D2382332D00BAE4C5 /* Build configuration list for PBXProject "HsbcAhmed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE11C492382332D00BAE4C5;
+			productRefGroup = 3FE11C532382332D00BAE4C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE11C512382332D00BAE4C5 /* HsbcAhmed */,
+				3FE11C672382332E00BAE4C5 /* HsbcAhmedTests */,
+				3FE11C722382332E00BAE4C5 /* HsbcAhmedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE11C502382332D00BAE4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE11C622382332E00BAE4C5 /* LaunchScreen.storyboard in Resources */,
+				3FE11C5F2382332E00BAE4C5 /* Assets.xcassets in Resources */,
+				3FE11C5D2382332D00BAE4C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE11C662382332E00BAE4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE11C712382332E00BAE4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE11C4E2382332D00BAE4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE11C5A2382332D00BAE4C5 /* ViewController.swift in Sources */,
+				3FE11C562382332D00BAE4C5 /* AppDelegate.swift in Sources */,
+				3FE11C582382332D00BAE4C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE11C642382332E00BAE4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE11C6D2382332E00BAE4C5 /* HsbcAhmedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE11C6F2382332E00BAE4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE11C782382332E00BAE4C5 /* HsbcAhmedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE11C6A2382332E00BAE4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE11C512382332D00BAE4C5 /* HsbcAhmed */;
+			targetProxy = 3FE11C692382332E00BAE4C5 /* PBXContainerItemProxy */;
+		};
+		3FE11C752382332E00BAE4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE11C512382332D00BAE4C5 /* HsbcAhmed */;
+			targetProxy = 3FE11C742382332E00BAE4C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FE11C5B2382332D00BAE4C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE11C5C2382332D00BAE4C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FE11C602382332E00BAE4C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE11C612382332E00BAE4C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE11C7A2382332E00BAE4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FE11C7B2382332E00BAE4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE11C7D2382332E00BAE4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUPX946GA;
+				INFOPLIST_FILE = HsbcAhmed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAlaloul.HsbcAhmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FE11C7E2382332E00BAE4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUPX946GA;
+				INFOPLIST_FILE = HsbcAhmed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAlaloul.HsbcAhmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FE11C802382332E00BAE4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUPX946GA;
+				INFOPLIST_FILE = HsbcAhmedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAlaloul.HsbcAhmedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HsbcAhmed.app/HsbcAhmed";
+			};
+			name = Debug;
+		};
+		3FE11C812382332E00BAE4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUPX946GA;
+				INFOPLIST_FILE = HsbcAhmedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAlaloul.HsbcAhmedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HsbcAhmed.app/HsbcAhmed";
+			};
+			name = Release;
+		};
+		3FE11C832382332E00BAE4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUPX946GA;
+				INFOPLIST_FILE = HsbcAhmedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAlaloul.HsbcAhmedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HsbcAhmed;
+			};
+			name = Debug;
+		};
+		3FE11C842382332E00BAE4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJUPX946GA;
+				INFOPLIST_FILE = HsbcAhmedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAlaloul.HsbcAhmedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HsbcAhmed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE11C4D2382332D00BAE4C5 /* Build configuration list for PBXProject "HsbcAhmed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE11C7A2382332E00BAE4C5 /* Debug */,
+				3FE11C7B2382332E00BAE4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE11C7C2382332E00BAE4C5 /* Build configuration list for PBXNativeTarget "HsbcAhmed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE11C7D2382332E00BAE4C5 /* Debug */,
+				3FE11C7E2382332E00BAE4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE11C7F2382332E00BAE4C5 /* Build configuration list for PBXNativeTarget "HsbcAhmedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE11C802382332E00BAE4C5 /* Debug */,
+				3FE11C812382332E00BAE4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE11C822382332E00BAE4C5 /* Build configuration list for PBXNativeTarget "HsbcAhmedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE11C832382332E00BAE4C5 /* Debug */,
+				3FE11C842382332E00BAE4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE11C4A2382332D00BAE4C5 /* Project object */;
+}
